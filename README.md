@@ -7,3 +7,11 @@
 - Eslint 및 Prettier 설정
 - NPM, node_modules, package.json, .gitignore
 - tsconfig.json
+
+### 2일차 - 프로젝트 세팅하기2
+
+- CRA없이 webpack 설정 (아직 정확히 이해하지 못했다. 추후 공부할 필요 있음)
+- 리액트 프로젝트의 폴더 구조
+- 리액트 라우터 설정
+- 페이지 단위 코드 스플리팅
+- emotion을 통한 CSS-in-JS
