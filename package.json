@@ -12,6 +12,7 @@
   "author": "sanbondeveloper",
   "license": "MIT",
   "dependencies": {
+    "@loadable/component": "^5.15.3",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
     "@types/react": "^17.0.71",
     "@types/react-dom": "^17.0.25",
@@ -31,6 +32,10 @@
     "@babel/preset-env": "^7.23.3",
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
+    "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@types/loadable__component": "^5.13.7",
     "@types/node": "^16.18.65",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
