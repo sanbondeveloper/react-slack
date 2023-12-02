@@ -15,3 +15,11 @@
 - 리액트 라우터 설정
 - 페이지 단위 코드 스플리팅
 - emotion을 통한 CSS-in-JS
+
+### 3일차 - 회원가입 및 로그인 구현
+
+- useSWR와 쿠키를 통한 로그인 구현
+- 커스텀 훅 만들기, 일반 함수와 차이
+- CORS 에러와 proxy
+- children와 React.FC
+- OPTIMISTIC UI (낙관적 업데이트)
