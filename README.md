@@ -23,3 +23,4 @@
 - CORS 에러와 proxy
 - children와 React.FC
 - OPTIMISTIC UI (낙관적 업데이트)
+- 타입스크립트 제네릭 사용 - useInput
