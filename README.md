@@ -24,3 +24,14 @@
 - children와 React.FC
 - OPTIMISTIC UI (낙관적 업데이트)
 - 타입스크립트 제네릭 사용 - useInput
+
+### 4일차 - 워크스페이스 구현, DM 구현
+
+- 중첩 라우터 구현 (Switch 안의 Switch)
+- 이벤트 버블링 방지를 위한 stopPropagation
+- defaultProps를 통한 컴포넌트 Props 기본값 설정
+- 인풋이 많으면 리랜더링이 빈번해 발생하기 때문에 컴포넌트 분리 권장
+- API 에러 처리 방법
+- 모달과 메뉴 더 좋은 방법으로 구현해보자 (ReactPortal 등)
+- useParams로 url params 가져오기 (url은 데이터 저장소 역할을 하기도 한다.)
+- NavLike로 활성화중인 링크에 클래스값 부여하기
