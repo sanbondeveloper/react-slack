@@ -7,7 +7,7 @@ import { Link, Redirect } from 'react-router-dom';
 import fetcher from '@utils/fetcher';
 
 const LogIn = () => {
-  const { data: userData, error, mutate } = useSWR('/api/users', fetcher, {}); // 캐시에 로그인 정보가 있는지 확인
+  const { data: userData, error, mutate: refetchUser } = useSWR('/api/users', fetcher, {}); // 캐시에 로그인 정보가 있는지 확인
   const [logInError, setLogInError] = useState(false);
   const [email, onChangeEmail] = useInput('');
   const [password, onChangePassword] = useInput('');
@@ -23,8 +23,8 @@ const LogIn = () => {
             withCredentials: true,
           },
         )
-        .then((response) => {
-          mutate(response.data, false); // OPTIMISTIC UI
+        .then(() => {
+          refetchUser();
         })
         .catch((error) => {
           setLogInError(error.response?.status === 401);
@@ -38,7 +38,7 @@ const LogIn = () => {
   }
 
   if (userData) {
-    return <Redirect to="/workspace/channel" />;
+    return <Redirect to="/workspace/sleact/channel/일반" />;
   }
 
   // console.log(error, userData);
